@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff7899">
+  <meta name="description" content="MILU — закуски, гастробоксы и маленькие поводы собраться. Доставка по Саратову.">
+  <title>MILU — вкусно собраться</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#" aria-label="MILU — на главную">mi<span>lu</span><i>✳</i></a>
+      <nav class="main-nav" id="main-nav" aria-label="Главная навигация">
+        <a href="#menu">Меню</a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button favorite-toggle" type="button" aria-label="Избранное" title="Избранное">♡ <span class="count" id="fav-count">0</span></button>
+        <button class="cart-button" type="button" id="cart-open">Корзина <span class="count" id="cart-count">0</span></button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Доставка по Саратову</p>
+          <h1>Собраться.<br>Поесть.<br><span>Повторить.</span></h1>
+          <p class="hero-text">Закуски, которые собирают людей вместе. Красиво, щедро и без лишних хлопот.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#menu">Выбрать вкусное <span>↗</span></a><a class="text-link" href="#about">Что такое MILU? <span>↓</span></a></div>
+          <div class="hero-note"><span class="note-star">✳</span><span><b>Сделано с любовью</b><small>Для вечеринок, свиданий и просто так</small></span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-frame"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1100&q=85" alt="Яркий стол с аппетитными закусками"></div>
+          <div class="sticker sticker-top">good<br>mood only <span>✳</span></div>
+          <div class="sticker sticker-bottom"><span>♡</span> вкусно<br>быть вместе</div>
+          <span class="floating-spark spark-a">✳</span><span class="floating-spark spark-b">✦</span>
+        </div>
+      </div>
+      <div class="marquee marquee-hero" aria-hidden="true"><div class="marquee-track"><span>ВКУСНО БЫТЬ ВМЕСТЕ ✳ МАЛЕНЬКИЕ РАДОСТИ ✳ ВКУСНО БЫТЬ ВМЕСТЕ ✳ МАЛЕНЬКИЕ РАДОСТИ ✳</span><span>ВКУСНО БЫТЬ ВМЕСТЕ ✳ МАЛЕНЬКИЕ РАДОСТИ ✳ ВКУСНО БЫТЬ ВМЕСТЕ ✳ МАЛЕНЬКИЕ РАДОСТИ ✳</span></div></div>
+    </section>
+    <section class="section categories-section" id="about">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Повод найдётся</p><h2>Что сегодня <span>устроим?</span></h2></div><p class="heading-aside">Выбирай настроение.<br>О вкусном мы позаботимся.</p></div>
+        <div class="category-grid">
+          <a class="category-card cat-pink" href="#menu" data-category-link="Боксы"><span class="category-number">01 / БОКСЫ</span><div class="category-art"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=700&q=80" alt="Ассорти закусок в коробке" loading="lazy"></div><h3>Большая<br>компания</h3><span class="round-arrow">↗</span></a>
+          <a class="category-card cat-yellow" href="#menu" data-category-link="Закуски"><span class="category-number">02 / ЗАКУСКИ</span><div class="category-art"><img src="https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=700&q=80" alt="Мини-закуски на тарелке" loading="lazy"></div><h3>Маленькие<br>радости</h3><span class="round-arrow">↗</span></a>
+          <a class="category-card cat-blue" href="#menu" data-category-link="Десерты"><span class="category-number">03 / ДЕСЕРТЫ</span><div class="category-art"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=80" alt="Нежный десерт с ягодами" loading="lazy"></div><h3>Сладкая<br>точка</h3><span class="round-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+    <div class="marquee marquee-yellow" aria-hidden="true"><div class="marquee-track"><span>СОБИРАЕМ ВКУСНОЕ ✳ ПРИВОЗИМ РАДОСТЬ ✳ СОБИРАЕМ ВКУСНОЕ ✳ ПРИВОЗИМ РАДОСТЬ ✳</span><span>СОБИРАЕМ ВКУСНОЕ ✳ ПРИВОЗИМ РАДОСТЬ ✳ СОБИРАЕМ ВКУСНОЕ ✳ ПРИВОЗИМ РАДОСТЬ ✳</span></div></div>
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Вкусное уже здесь</p><h2>Меню <span>MILU</span></h2></div><p class="heading-aside">Выбирай то, что хочется.<br>Сегодня можно всё.</p></div>
+        <div class="menu-toolbar"><div class="filter-list" role="group" aria-label="Фильтр товаров"><button class="filter-btn is-active" data-filter="Все" aria-pressed="true">Всё меню</button><button class="filter-btn" data-filter="Боксы" aria-pressed="false">Гастробоксы</button><button class="filter-btn" data-filter="Закуски" aria-pressed="false">Закуски</button><button class="filter-btn" data-filter="Десерты" aria-pressed="false">Десерты</button></div><label class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="product-search" placeholder="Найти вкусное…" aria-label="Поиск по меню"></label></div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <p class="menu-footnote">* Изображения представлены для примера. Состав и наличие уточняются при заказе.</p>
+      </div>
+    </section>
+    <section class="promise-section" id="delivery">
+      <div class="container promise-grid"><div class="promise-intro"><p class="eyebrow">Почему MILU?</p><h2>Меньше<br>организации.<br><span>Больше жизни.</span></h2><p>Не нужно резать, раскладывать и переживать. Просто открывай коробку и наслаждайся моментом.</p><a class="button button-dark" href="#contacts">Заказать праздник <span>↗</span></a></div>
+      <div class="promise-list"><article class="promise-item"><span class="promise-icon">✳</span><div><h3>Выглядит вау</h3><p>Каждый бокс — готовая сервировка и повод достать телефон.</p></div><span class="promise-index">01</span></article><article class="promise-item"><span class="promise-icon">♡</span><div><h3>Свежо и вкусно</h3><p>Собираем заказы с вниманием к деталям и продуктам.</p></div><span class="promise-index">02</span></article><article class="promise-item"><span class="promise-icon">↗</span><div><h3>Просто заказать</h3><p>Выбери набор, оставь заявку — согласуем время доставки.</p></div><span class="promise-index">03</span></article></div></div>
+    </section>
+    <section class="order-section" id="contacts"><div class="container order-grid"><div><p class="eyebrow">Есть повод?</p><h2>Давай сделаем<br><span>его вкусным.</span></h2><p class="order-desc">Напиши нам — поможем выбрать бокс под твою компанию и настроение.</p><a class="contact-line" href="https://t.me/" target="_blank" rel="noreferrer">Написать в Telegram <span>↗</span></a></div>
+      <form class="order-form" id="order-form"><label>Как тебя зовут?<input name="name" required minlength="2" placeholder="Например, Аня" autocomplete="name"></label><label>Номер для связи<input name="phone" required type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label><label>Что планируем?<select name="occasion"><option>Пока выбираю</option><option>Вечеринка</option><option>Свидание</option><option>День рождения</option><option>Офис / мероприятие</option></select></label><button class="button button-dark submit-button" type="submit">Оставить заявку <span>↗</span></button><p class="form-note">Нажимая кнопку, ты соглашаешься на обработку данных для связи по заявке.</p><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-top"><a class="logo footer-logo" href="#">mi<span>lu</span><i>✳</i></a><p>Маленькие радости<br>для больших моментов.</p><a href="#main" class="back-top">Наверх ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> MILU, Саратов</span><span>Сделано с аппетитом ✳</span><a href="#contacts">Связаться с нами</a></div></footer>
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Корзина" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow">Твой выбор</p><h2>Корзина <span id="drawer-count">(0)</span></h2></div><button class="close-button" id="cart-close" aria-label="Закрыть корзину">×</button></div><div class="cart-items" id="cart-items"></div><div class="cart-bottom"><div class="total-row"><span>Итого</span><strong id="cart-total">0 ₽</strong></div><button class="button button-dark checkout-button" id="checkout-button">Оформить заказ <span>↗</span></button><p>Детали заказа согласуем после заявки.</p></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
