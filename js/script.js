@@ -1,10 +1,10 @@
 const products = [
- {id:1,name:"Бокс «Всё и сразу»",category:"Боксы",price:2490,weight:"950 г · на 3–4 человек",tag:"Хит",description:"Сыр, фрукты, оливки и закуски для долгих разговоров.",image:"https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"},
- {id:2,name:"Бокс «Девичник»",category:"Боксы",price:3290,weight:"1,2 кг · на 4–6 человек",tag:"Для компании",description:"Яркое ассорти, которое сразу задаёт настроение вечеру.",image:"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=85"},
- {id:3,name:"Канапе party",category:"Закуски",price:1290,weight:"20 шт.",tag:"Популярное",description:"Мини-закуски на один укус — удобно делиться и пробовать.",image:"https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=800&q=85"},
- {id:4,name:"Брускетты микс",category:"Закуски",price:990,weight:"12 шт.",tag:"Новинка",description:"Хрустящий хлеб, нежные начинки и свежие акценты.",image:"https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=85"},
- {id:5,name:"Ягодное настроение",category:"Десерты",price:1190,weight:"600 г",tag:"Сладкое",description:"Нежный десерт с ягодами — красивая точка встречи.",image:"https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=85"},
- {id:6,name:"Сырный вечер",category:"Боксы",price:2190,weight:"850 г · на 2–3 человек",tag:"Для двоих",description:"Сыры, виноград, орехи и всё для уютного вечера.",image:"https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=800&q=85"}
+ {id:1,name:"Бокс «Всё и сразу»",category:"Боксы",price:2490,weight:"950 г · на 3–4 человек",tag:"Хит",description:"Сыр, фрукты, оливки и закуски для долгих разговоров.",image:"assets/images/hero-food.svg"},
+ {id:2,name:"Бокс «Девичник»",category:"Боксы",price:3290,weight:"1,2 кг · на 4–6 человек",tag:"Для компании",description:"Яркое ассорти, которое сразу задаёт настроение вечеру.",image:"assets/images/gastro-box.svg"},
+ {id:3,name:"Канапе party",category:"Закуски",price:1290,weight:"20 шт.",tag:"Популярное",description:"Мини-закуски на один укус — удобно делиться и пробовать.",image:"assets/images/canapes.svg"},
+ {id:4,name:"Брускетты микс",category:"Закуски",price:990,weight:"12 шт.",tag:"Новинка",description:"Хрустящий хлеб, нежные начинки и свежие акценты.",image:"assets/images/bruschetta.svg"},
+ {id:5,name:"Ягодное настроение",category:"Десерты",price:1190,weight:"600 г",tag:"Сладкое",description:"Нежный десерт с ягодами — красивая точка встречи.",image:"assets/images/dessert.svg"},
+ {id:6,name:"Сырный вечер",category:"Боксы",price:2190,weight:"850 г · на 2–3 человек",tag:"Для двоих",description:"Сыры, виноград, орехи и всё для уютного вечера.",image:"assets/images/cheese-board.svg"}
 ];
 const state = {filter:"Все",search:"",cart:[],favorites:new Set(),showFavorites:false};
 const $ = (selector,root=document)=>root.querySelector(selector);
